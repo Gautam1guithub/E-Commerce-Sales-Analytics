@@ -93,7 +93,7 @@ df2.columns = ['review_score', 'days_before_estimate']
 
 plt.figure(figsize=(10, 5))
 sns.barplot(x='review_score', y='days_before_estimate',
-            data=df1, palette='RdYlGn')
+            data=df2, palette='RdYlGn')
 plt.title('Days Delivered Before Estimate vs Review Score', 
           fontsize=14)
 plt.xlabel('Review Score (1-5)')
