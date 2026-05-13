@@ -35,6 +35,10 @@ The workflow includes:
 
 Developed a complete analytics workflow that transforms raw e-commerce data into meaningful business insights through SQL analysis, Python-based EDA, and interactive dashboard reporting.
 
+## Dataset 
+
+<img width="1866" height="772" alt="image" src="https://github.com/user-attachments/assets/b4eef62c-0e78-49c2-83b4-b394eb1390d6" />
+
 
 ## EDA Analysis
 
@@ -210,5 +214,18 @@ del df5, df5_top
 
 # Insight: Best sellers deliver in just 4-5 days
 # Action: Have slow sellers adopt practices from these fast sellers. Give fast sellers a "Preferred Seller" badge — customers will choose them.
+
+
+## 🗂️ Data Model & Relationships
+
+<img width="1462" height="727" alt="image" src="https://github.com/user-attachments/assets/13bdd5ed-832f-4c6e-96a5-ea4dbf82cd2d" />
+
+## Dashboard
+
+<img width="1375" height="731" alt="image" src="https://github.com/user-attachments/assets/8d22d489-8a04-4597-947e-2e481868b8d3" />
+
+
+
+
 
 
