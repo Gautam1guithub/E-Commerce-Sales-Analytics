@@ -41,15 +41,15 @@ Developed a complete analytics workflow that transforms raw e-commerce data into
 1. Montly Revenue
 
 df1 = pd.read_sql("""
-    SELECT 
-        YEAR(o.order_purchase_timestamp) AS year,
-        MONTH(o.order_purchase_timestamp) AS month,
-        ROUND(SUM(p.payment_value), 0) AS total_revenue
-    FROM orders_stage o
-    JOIN order_payments_stage p ON o.order_id = p.order_id
-    GROUP BY year, month
-    ORDER BY year, month
-""", engine)
+    * SELECT 
+        * YEAR(o.order_purchase_timestamp) AS year,
+        * MONTH(o.order_purchase_timestamp) AS month,
+        * ROUND(SUM(p.payment_value), 0) AS total_revenue
+    * FROM orders_stage o
+    * JOIN order_payments_stage p ON o.order_id = p.order_id
+    * GROUP BY year, month
+    * ORDER BY year, month
+* """, engine)
 
 # Combine Year-Month For Readability
 
